@@ -5,16 +5,15 @@
     <link rel="stylesheet" href="1.css">
     <script language="javascript" src="2.js"></script>
     <title></title>
-
   </head>
   <body>
      <audio id="nyan" src="1.mp3" preload="metadata" type="audio/mpeg">
 </audio>
-<a class="btn" id="nyan-btn" style="margin-top:25%">Nhấn vô thử</a>
+<a class="btn" id="nyan-btn" style="margin-top:20%">Đeo tai nghe vào và <br/><br/>Nhấn vô thử</a>
   </body>
   <script>
 	var nyan = document.getElementById('nyan');
-var nyanBtn = document.getElementById('nyan-btn');
+  var nyanBtn = document.getElementById('nyan-btn');
 
 function playPause(song){
    if (song.paused && song.currentTime >= 0 && !song.ended) {
